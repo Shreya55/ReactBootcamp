@@ -10,7 +10,7 @@ export default function Post() {
     }
     return (
         <div>
-            Title that you would get:
+            Title that you would get again:
             {post? <p> {post.title}</p>: null}
             <br/>
             <button onClick={getpost}>Get Title</button>
